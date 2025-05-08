@@ -8,7 +8,7 @@ git pull origin main
 
 git checkout gh-pages
 
-# 合併main分支的內容
+# 合併main分支
 
 git merge main
 
