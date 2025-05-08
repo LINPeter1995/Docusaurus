@@ -22,6 +22,8 @@ git push --force origin gh-pages
 
 # 部署命令
 
+git checkout main
+
 $env:GIT_USER="LINPeter1995"
 
 npm run deploy
