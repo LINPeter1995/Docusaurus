@@ -1,6 +1,6 @@
 # 個人技術分享部落格
 
-npm run build
+$env:GIT_USER="LINPeter1995"
 
 npm run deploy
 
