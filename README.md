@@ -1,5 +1,9 @@
 # 個人技術分享部落格
 
+npm run build
+
+npm run deploy
+
 # main(主開發分支)
 
 # gh-pages(部署網站的分支)
