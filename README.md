@@ -1,5 +1,7 @@
 # 個人技術分享部落格
 
+https://linpeter1995.github.io/Docusaurus/
+
 $env:GIT_USER="LINPeter1995"
 
 npm run deploy
