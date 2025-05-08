@@ -52,7 +52,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "個人技術部落格",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -70,7 +70,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/LINPeter1995",
           "label": "GitHub",
           "position": "right"
         }
