@@ -22,6 +22,8 @@ git merge main
 
 git push origin gh-pages
 
+git push --force origin gh-pages
+
 總結：
 
 分離開發與部署：開發過程和網站部署在不同的分支上，這樣有助於避免混亂，也能讓代碼更乾淨。
