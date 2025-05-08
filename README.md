@@ -12,8 +12,6 @@ git checkout gh-pages
 
 git merge main
 
-（如果有衝突，請解決後再繼續）
-
 # 推送 gh-pages 分支到 GitHub
 
 git push origin gh-pages
