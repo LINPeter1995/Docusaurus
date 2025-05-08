@@ -1,23 +1,35 @@
-# 個人技術分享部落格
+# 確保 main 分支有最新內容
 
-# main(主開發分支)
+git checkout main
 
-# gh-pages(部署網站的分支)
+git pull origin main
 
-切換到 gh-pages 分支：
+# 切到部署分支
 
 git checkout gh-pages
 
-合併 main 分支：
+# 合併 main 分支的內容
 
 git merge main
 
-推送：
+# 推送 gh-pages 分支到 GitHub
 
 git push origin gh-pages
 
-總結：
+# 如果 Git 拒絕你推送（非 fast-forward），可以加上 --force（請小心使用）：
 
-分離開發與部署：開發過程和網站部署在不同的分支上，這樣有助於避免混亂，也能讓代碼更乾淨。
+git push --force origin gh-pages
 
-靈活的部署流程：你可以隨時根據需要更新 gh-pages 分支的內容，而不會影響 main 分支的開發進程。
+# 部署命令
+
+git checkout main
+
+$env:GIT_USER="LINPeter1995"
+
+npm run deploy
+
+# 這段等同於：
+
+# 自動建構靜態檔案（npm run build）
+
+# 自動將內容推送到 gh-pages 分支（透過 gh-pages 套件）
