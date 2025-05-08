@@ -16,7 +16,7 @@ git merge main
 
 git push origin gh-pages
 
-# 如果 Git 拒絕你推送（非 fast-forward），可以加上 --force（請小心使用）：
+# 如果 Git 拒絕你推送，可以加上 --force：
 
 git push --force origin gh-pages
 
