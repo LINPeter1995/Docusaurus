@@ -1,4 +1,4 @@
-# 個人技術部落格網址
+# 個人技術部落格
 
 https://linpeter1995.github.io/Docusaurus/
 
